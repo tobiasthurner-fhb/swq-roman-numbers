@@ -20,4 +20,9 @@ class MainTest {
     void testIdenticalDigits(){
         assertEquals("II", RomanNumberConverter.toRomanNumbers(2));
     }
+
+    @Test
+    void testBasicAddition(){
+        assertEquals("XI", RomanNumberConverter.toRomanNumbers(11));
+    }
 }

@@ -15,4 +15,9 @@ class MainTest {
     void testSingleDigits(){
         assertEquals("I", RomanNumberConverter.toRomanNumbers(1));
     }
+
+    @Test
+    void testIdenticalDigits(){
+        assertEquals("II", RomanNumberConverter.toRomanNumbers(2));
+    }
 }

@@ -36,5 +36,8 @@ class MainTest {
         assertEquals("LXIII", RomanNumberConverter.toRomanNumbers(63));
     }
 
-
+    @Test
+    void testMultipleSubstraction(){
+        assertEquals("XLVIII", RomanNumberConverter.toRomanNumbers(48));
+    }
 }

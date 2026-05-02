@@ -28,7 +28,7 @@ class MainTest {
 
     @Test
     void testBasicSubtraction(){
-        assertEquals("VL", RomanNumberConverter.toRomanNumbers(45));
+        assertEquals("XLV", RomanNumberConverter.toRomanNumbers(45));
     }
 
     @Test

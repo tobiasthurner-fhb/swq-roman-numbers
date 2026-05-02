@@ -30,4 +30,11 @@ class MainTest {
     void testBasicSubtraction(){
         assertEquals("VL", RomanNumberConverter.toRomanNumbers(45));
     }
+
+    @Test
+    void testMultipleAddition(){
+        assertEquals("LXIII", RomanNumberConverter.toRomanNumbers(63));
+    }
+
+
 }

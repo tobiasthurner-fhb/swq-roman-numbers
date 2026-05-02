@@ -25,4 +25,9 @@ class MainTest {
     void testBasicAddition(){
         assertEquals("XI", RomanNumberConverter.toRomanNumbers(11));
     }
+
+    @Test
+    void testBasicSubtraction(){
+        assertEquals("VL", RomanNumberConverter.toRomanNumbers(45));
+    }
 }
